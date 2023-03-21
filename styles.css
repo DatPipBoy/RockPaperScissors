@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header {
+    text-align: center;
+}
+
+.Selections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+    height: 100px;
+    width: 400px;
+}
+
+.Buttons {
+    height: min-content;
+    width: min-content;
+}
+
+.Rock {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Paper {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Scissors {
+    margin-left: 20px;
+    margin-right: 20px;
+}
